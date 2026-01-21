@@ -12,16 +12,15 @@
 
 <p><i>Make your relaxing afternoon better.</i></p>
 
-<a href="https://github.com/your-username/themer">
-  <img src="https://img.shields.io/badge/Release-v0.0.1-9cf?style=for-the-badge&logo=visualstudiocode" />
-</a>
-<a href="https://github.com/your-username/themer">
-  <img src="https://img.shields.io/badge/Mode-Chaos-orange?style=for-the-badge&logo=overwatch" />
-</a>
-<a href="https://github.com/your-username/themer">
-  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" />
-</a>
+<p align="center">
 
+![Release](https://img.shields.io/badge/Release-v0.0.1-9cf?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+![Mode](https://img.shields.io/badge/Mode-Umm-orange?style=for-the-badge&logo=overwatch&logoColor=white)
+![Code](https://img.shields.io/badge/Code-Bad-critical?style=for-the-badge&logo=git&logoColor=white)
+![Women](https://img.shields.io/badge/Women-None-red?style=for-the-badge&labelColor=555&logo=ghost&logoColor=white)
+![Life](https://img.shields.io/badge/Life-Dead-black?style=for-the-badge&logo=skull&logoColor=white)
+
+</p>
 <br/><br/>
 
 <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGdwYXVhcXU2eDEwM3I4dWYwaDQ3ZWYxbTBkdHd6N2M1a2ptOWxmbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/UgKVfxv2VRrb4R2kDY/giphy.gif" width="70%" />
@@ -35,7 +34,9 @@
 **THEMER** is a VS Code extension that automatically switches your editor theme at configurable intervals.
 
 You pick the themes.
+
 You pick the interval.
+
 THEMER handles the switch.
 
 ---
@@ -87,10 +88,11 @@ themer/
 
 5. Select the downloaded file
 ```
-<p align="center" style="opacity:0.85">
-I was bored.
-</p>
+---
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" />
-</p>
+## Alright, hush
+```typescript
+┌──────────────────────────────────────┐
+│                  EOF                 │
+└──────────────────────────────────────┘
+```
