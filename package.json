@@ -1,0 +1,86 @@
+{
+  "name": "themer",
+  "displayName": "Themer - The Chaos Theme Switcher",
+  "description": "Automatically switch VSCode themes because consistency is overrated",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.93.0"
+  },
+  "categories": [
+    "Other",
+    "Themes"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "themer.startChaos",
+        "title": "Themer: Let the Chaos Begin! >:)"
+      },
+      {
+        "command": "themer.stopChaos",
+        "title": "Themer: Restore Sanity :)"
+      },
+      {
+        "command": "themer.configure",
+        "title": "Themer: Configure Madness :D"
+      },
+      {
+        "command": "themer.flashbang",
+        "title": "Themer: FLASHBANG MODE! (*_*)"
+      },
+      {
+        "command": "themer.stopFlashbang",
+        "title": "Themer: Stop Flashbang (^_^)"
+      }
+    ],
+    "configuration": {
+      "title": "Themer",
+      "properties": {
+        "themer.interval": {
+          "type": "number",
+          "default": 5,
+          "description": "Seconds between theme changes (1-60)"
+        },
+        "themer.selectedThemes": {
+          "type": "array",
+          "default": [],
+          "description": "Themes to cycle through"
+        },
+        "themer.randomMode": {
+          "type": "boolean",
+          "default": false,
+          "description": "Random theme selection vs sequential"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.93.0",
+    "@types/mocha": "^10.0.7",
+    "@types/node": "20.x",
+    "@typescript-eslint/eslint-plugin": "^8.3.0",
+    "@typescript-eslint/parser": "^8.3.0",
+    "eslint": "^9.9.1",
+    "typescript": "^5.5.4",
+    "@vscode/test-cli": "^0.0.10",
+    "@vscode/test-electron": "^2.4.1"
+  },
+  "publisher": "OOrangEmon",
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/OOrangEmon"
+},
+"license": "MIT"
+}
