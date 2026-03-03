@@ -47,7 +47,7 @@ THEMER handles the switch.
 * Start / stop controls from a single UI panel
 * Search and filter your installed themes
 * Sequential or random mode
-* FLASHBANG MODE for ahhhh... you know
+* FLASHBANG MODE for uhhhhh...
 * Restores your original theme when you stop
 
 ---
