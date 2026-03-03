@@ -2,7 +2,7 @@
   "name": "themer",
   "displayName": "Themer - The Chaos Theme Switcher",
   "description": "Automatically switch VSCode themes because consistency is overrated",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.93.0"
   },
@@ -17,24 +17,8 @@
   "contributes": {
     "commands": [
       {
-        "command": "themer.startChaos",
-        "title": "Themer: Let the Chaos Begin! >:)"
-      },
-      {
-        "command": "themer.stopChaos",
-        "title": "Themer: Restore Sanity :)"
-      },
-      {
         "command": "themer.configure",
         "title": "Themer: Configure Madness :D"
-      },
-      {
-        "command": "themer.flashbang",
-        "title": "Themer: FLASHBANG MODE! (*_*)"
-      },
-      {
-        "command": "themer.stopFlashbang",
-        "title": "Themer: Stop Flashbang (^_^)"
       }
     ],
     "configuration": {
