@@ -4,17 +4,17 @@
 
 <div align="center">
 
-<h1 style="text-shadow: 0 0 12px #7cf, 0 0 32px #58f;">
-  THEMER
+<h1 style="font-family: Comic Sans MS, cursive; font-size: 72px; text-shadow: 4px 4px 0px #ff0000, -4px -4px 0px #00ff00, 8px -8px 0px #ffff00, -8px 8px 0px #00ffff; display: inline-block; background: linear-gradient(90deg, #ff0000, #ff7700, #ffff00, #00ff00, #0000ff, #ff00ff); -webkit-background-clip: text; -webkit-text-fill-color: transparent; letter-spacing: -2px; text-decoration: underline overline line-through;">
+  T̷̨̢H̸̡̢E̶̢̱M̵̨̱E̴̡̢R̸̨̢
 </h1>
 
 <h3>The Theme Switcher for VS Code</h3>
 
-<p><i>Make your relaxing afternoon better.</i></p>
+<p><i>I made it with ZAZA</i></p>
 
 <p align="center">
 
-![Release](https://img.shields.io/badge/Release-v0.0.1-9cf?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+![Release](https://img.shields.io/badge/Release-v0.0.2-9cf?style=for-the-badge&logo=visualstudiocode&logoColor=white)
 ![Mode](https://img.shields.io/badge/Mode-Umm-orange?style=for-the-badge&logo=overwatch&logoColor=white)
 ![Code](https://img.shields.io/badge/Code-Bad-critical?style=for-the-badge&logo=git&logoColor=white)
 ![Women](https://img.shields.io/badge/Women-None-red?style=for-the-badge&labelColor=555&logo=ghost&logoColor=white)
@@ -29,7 +29,7 @@
 
 ---
 
-## What is THEMER?
+## THEMER?
 
 **THEMER** is a VS Code extension that automatically switches your editor theme at configurable intervals.
 
@@ -44,24 +44,23 @@ THEMER handles the switch.
 ## Features
 
 * Automatic theme rotation at custom intervals
-* Manual start / stop controls
-* Theme switch without restarting VS Code
+* Start / stop controls from a single UI panel
+* Search and filter your installed themes
+* Sequential or random mode
 * FLASHBANG MODE for ahhhh... you know
+* Restores your original theme when you stop
 
 ---
 
 ## Commands
 
-| Command                        | What it Does                |
-| ------------------------------ | --------------------------- |
-| `Themer: Configure Madness`    | Select themes and interval  |
-| `Themer: Let the Chaos Begin!` | Start switching             |
-| `Themer: Restore Sanity`       | Stop switching              |
-| `Themer: FLASHBANG MODE!`      | White theme every 3 seconds |
+| Cmd | What it Do? |
+| --- | --- |
+| `Themer: Configure Madness :D` | Opens the control panel — everything is here |
 
 ---
 
-## Project Structure
+## Structure
 
 ```text
 themer/
@@ -78,7 +77,7 @@ themer/
 
 ## Installation
 ```typescript
-1. Download `themer-0.0.1.vsix` from Releases
+1. Download `themer-0.0.2.vsix` from Releases
 
 2. Open VS Code
 
@@ -91,7 +90,7 @@ themer/
 ---
 
 ## Alright, hush
-```typescript
+```
 ┌──────────────────────────────────────┐
 │                  EOF                 │
 └──────────────────────────────────────┘
